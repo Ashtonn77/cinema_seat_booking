@@ -13,6 +13,12 @@ body {
   justify-content: center;
   height: 100vh;
   font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  letter-spacing: 1px;
+  margin-bottom: 30px;
 }
 
 .movie-container select {
@@ -108,4 +114,9 @@ p.text {
 
 p.text span {
   color: #46c7d3;
+}
+
+footer {
+  font-size: 12px;
+  margin-top: 13%;
 }
